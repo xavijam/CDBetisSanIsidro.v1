@@ -1,0 +1,5 @@
+div#menu div.right ul li {float:right; width:auto; padding:10px 17px;}
+div#stadium_map {display:none;}
+div.blocks div.block div.outer_block {float:left; width:268px; height:218px; margin:13px 0 0 11px; overflow:hidden;}
+div#main ul.sponsors li {}
+#simplemodal-container a.modalCloseImg {background:none; right:-14px; width:22px; height:26px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/basic/x.png',sizingMethod='scale');}
