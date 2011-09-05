@@ -27,7 +27,7 @@
 							<?php 
 								$image = get_post_custom_values('image', $post->ID);
 								if ($image!=null) {?>
-									<img src='/wp-content/themes/CDBetisSanIsidro/plugins/thumb.php?src=<?php echo $image[0]; ?>&amp;h=190&amp;w=190&amp;zc=1&amp;q=100' title='<?php $post->post_title; ?>' align='right' />
+									<img src='<?php echo get_bloginfo('template_url') ?>/plugins/thumb.php?src=<?php echo $image[0]; ?>&amp;h=190&amp;w=190&amp;zc=1&amp;q=100' title='<?php $post->post_title; ?>' align='right' />
 								<?php } 
 							?>
 							<?php wp_reset_query(); ?>
@@ -42,7 +42,7 @@
               if ($images!=null) {
                 echo '<h2>Las imágenes de la noticia:</h2>';
                 foreach ($images as &$value) {
-                    echo "<a href='".$value."' rel='prettyPhoto[pp_gal]'><img src='/wp-content/themes/CDBetisSanIsidro/plugins/thumb.php?src=".$value."&amp;h=100&amp;w=100&amp;zc=1&amp;q=100' title='".$post->post_title."' /></a>";
+                    echo "<a href='".$value."' rel='prettyPhoto[pp_gal]'><img src='".get_bloginfo('template_url')."/plugins/thumb.php?src=".$value."&amp;h=100&amp;w=100&amp;zc=1&amp;q=100' title='".$post->post_title."' /></a>";
                 }
                 echo '<span class="click"></span>';
               }							

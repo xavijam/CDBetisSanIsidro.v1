@@ -104,8 +104,8 @@
       var map = new L.Map('map');
       map.setView(new L.LatLng(40.38048608016328,-3.723936080932617), 15).addLayer(cloudmade);
       var MatchIcon = L.Icon.extend({
-          iconUrl: '/wp-content/themes/CDBetisSanIsidro/images/map/marker.png',
-          shadowUrl: '/wp-content/themes/CDBetisSanIsidro/images/map/marker-shadow.png',
+          iconUrl: theme_url+'/images/map/marker.png',
+          shadowUrl: theme_url+'/images/map/marker-shadow.png',
           iconSize: new L.Point(25, 41),
           shadowSize: new L.Point(41, 41),
           iconAnchor: new L.Point(12, 41),
@@ -124,7 +124,7 @@
   			var today = month + '/' + now.getDate() + '/' + now.getFullYear();
   		}
 
-  		sql="SELECT * FROM 278823 WHERE Date > '"+today+"' ORDER BY Date ASC LIMIT 1";
+  		sql="SELECT * FROM 1409775 WHERE Date > '"+today+"' ORDER BY Date ASC LIMIT 1";
       $.ajax({
         url: "http://tables.googlelabs.com/api/query?sql="+escape(sql),
         dataType: "jsonp",
@@ -138,11 +138,11 @@
   				var result = data.table.rows[0];
   				if (result!=undefined) {
   				  $('div.head img:eq(0)').attr('title',result[0]);
-  					$('div.head img:eq(0)').attr('src',result[1]);
+  					$('div.head img:eq(0)').attr('src',theme_url + '/images/escudos/' + result[1]);
   					$('div.head img:eq(0)').attr('alt',result[1]);
   					$('div.head img:eq(1)').attr('title',result[2]);
   					$('div.head img:eq(1)').attr('alt',result[2]);
-  					$('div.head img:eq(1)').attr('src',result[3]);
+  					$('div.head img:eq(1)').attr('src',theme_url + '/images/escudos/' + result[3]);
 
   					$('div.bottom p.date').text(convertDate(result[8]));
   					$('div.bottom p.stadium').text(result[7]);

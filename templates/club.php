@@ -33,7 +33,7 @@
 							<div id="stadium_map"></div>
 						</div>
 						<div id="organigram">
-							<!-- <img src="/wp-content/themes/CDBetisSanIsidro/images/club/organigrama2.jpg" title="Organigrama" alt="Organigrama"/> -->
+							<!-- <img src="<?php echo get_bloginfo('template_url') ?>/images/club/organigrama2.jpg" title="Organigrama" alt="Organigrama"/> -->
 						</div>
 					</div>
 				</div>

@@ -91,7 +91,7 @@
 			<?php 
 				$image = get_post_custom_values('image', $post->ID);
 				if ($image!=null) {?>
-					<img style="float:left; padding:2px; margin:0 10px 0 0; border:1px solid #CCCCCC" src='http://www.cdbetissanisidro.es/wp-content/themes/CDBetisSanIsidro/plugins/thumb.php?src=<?php echo $image[0]; ?>&amp;h=40&amp;w=40&amp;zc=1&amp;q=100' title='<?php $post->post_title; ?>' />
+					<img style="float:left; padding:2px; margin:0 10px 0 0; border:1px solid #CCCCCC" src='<?php echo get_bloginfo('template_url') ?>/plugins/thumb.php?src=<?php echo $image[0]; ?>&amp;h=40&amp;w=40&amp;zc=1&amp;q=100' title='<?php $post->post_title; ?>' />
 				<?php } 
 			?>
 			

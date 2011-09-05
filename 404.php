@@ -13,11 +13,11 @@
 		<meta name="geo.position" content="40.38049;-3.72402" />
 		<meta name="ICBM" content="40.38049, -3.72402" />
 		<meta name="google-site-verification" content="fC26K3080dm1Cp8GstCO-W3vx_BHY0IDP31ekZLIDMM" />
-		<link rel="shortcut icon" href="<?php bloginfo( 'template_url' ); ?>/images/favicon.ico" > 
+		<link rel="shortcut icon" href="<?php echo get_bloginfo( 'template_url' ); ?>/images/favicon.ico" > 
 		<title>Error | CD Betis San Isidro</title>
 		<link rel="profile" href="http://gmpg.org/xfn/11" />
 		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-		<!--[if IE]> <link href="/wp-content/themes/CDBetisSanIsidro/ie.css" rel="stylesheet" type="text/css" /> <![endif]-->
+		<!--[if IE]> <link href="<?php echo get_bloginfo( 'template_url' ); ?>/ie.css" rel="stylesheet" type="text/css" /> <![endif]-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />

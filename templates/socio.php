@@ -19,7 +19,7 @@
   		<link rel="profile" href="http://gmpg.org/xfn/11" />
   		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
   		<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&v2'/>
-  		<!--[if IE]> <link href="/wp-content/themes/CDBetisSanIsidro/ie.css" rel="stylesheet" type="text/css" /> <![endif]-->
+  		<!--[if IE]> <link href="<?php echo get_bloginfo('template_url') ?>/ie.css" rel="stylesheet" type="text/css" /> <![endif]-->
   		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 
   		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
@@ -37,7 +37,7 @@
             if ($today['mon'] > 5 && $today['mon'] < 9) {
     		  ?>
       		  <p class="info">Rellena este formulario, solo hay una modalidad a elegir, y recibirás un correo electrónico con las instrucciones de pago.</p>
-      			<form method="post" action="/wp-content/themes/CDBetisSanIsidro/plugins/mail.php">
+      			<form method="post" action="<?php echo get_bloginfo('template_url') ?>/plugins/mail.php">
       			  <label>Nombre<sup>*</sup></label>
       			  <input type="text" name="name" value="" class="text"/>
       			  <label>Apellidos<sup>*</sup></label>

@@ -9,9 +9,9 @@
 			  $thePostID = $wp_query->post->ID;
 				$image = get_post_meta($thePostID,'image', true);		
 				if ($image == '') {
-					echo '<img src="http://www.cdbetissanisidro.es/wp-content/themes/CDBetisSanIsidro/images/common/betis.png" class="full" />';
+					echo '<img src="'.get_bloginfo('template_url').'/images/common/betis.png" class="full" />';
 				} else {
-					echo '<img src="http://www.cdbetissanisidro.es/wp-content/themes/CDBetisSanIsidro/plugins/thumb.php?src='.get_post_meta($thePostID,'image', true).'&amp;h=305&amp;w=505&amp;zc=1&amp;q=100" />';
+					echo '<img src="'.get_bloginfo('template_url').'/plugins/thumb.php?src='.get_post_meta($thePostID,'image', true).'&amp;h=305&amp;w=505&amp;zc=1&amp;q=100" />';
 				}
 				
 			endwhile;
@@ -39,7 +39,7 @@
 						  <?php 
 								$is_there = '';
 								if ($image!=null) {?>
-									<img src='http://www.cdbetissanisidro.es/wp-content/themes/CDBetisSanIsidro/plugins/thumb.php?src=<?php echo get_post_meta($thePostID,'image', true); ?>&amp;h=45&amp;w=45&amp;zc=1&amp;q=70' alt="Betis San Isidro" title="Betis San Isidro"/>
+									<img src='<?php echo get_bloginfo('template_url') ?>/plugins/thumb.php?src=<?php echo get_post_meta($thePostID,'image', true); ?>&amp;h=45&amp;w=45&amp;zc=1&amp;q=70' alt="Betis San Isidro" title="Betis San Isidro"/>
 								<?php } ?>
 							<a href="<?php the_permalink() ?>">
 							  <?php
@@ -119,7 +119,7 @@
 								<?php 
 									$image = get_post_custom_values('image', $post->ID);
 									if ($image!=null) {?>
-										<img src='http://www.cdbetissanisidro.es/wp-content/themes/CDBetisSanIsidro/plugins/thumb.php?src=<?php echo $image[0]; ?>&amp;h=70&amp;w=120&amp;zc=1&amp;q=100' title='<?php $post->post_title; ?>' align='right' />
+										<img src='<?php echo get_bloginfo('template_url') ?>/plugins/thumb.php?src=<?php echo $image[0]; ?>&amp;h=70&amp;w=120&amp;zc=1&amp;q=100' title='<?php $post->post_title; ?>' align='right' />
 									<?php } 
 								?>
 								<p class="text_content"><?php echo str_replace('.','. ',custom_trim_excerpt('',27)); ?></p>
@@ -206,7 +206,7 @@
 							<?php 
 								$image = get_post_custom_values('image', $post->ID);
 								if ($image!=null) {?>
-									<img src='/wp-content/themes/CDBetisSanIsidro/plugins/thumb.php?src=<?php echo $image[0]; ?>&amp;h=70&amp;w=120&amp;zc=1&amp;q=100' title='<?php $post->post_title; ?>' align='right' />
+									<img src='<?php echo get_bloginfo('template_url') ?>/plugins/thumb.php?src=<?php echo $image[0]; ?>&amp;h=70&amp;w=120&amp;zc=1&amp;q=100' title='<?php $post->post_title; ?>' align='right' />
 								<?php } 
 							?>
 							<p class="text_content"><?php echo str_replace('.','. ',custom_trim_excerpt('',40)); ?></p>

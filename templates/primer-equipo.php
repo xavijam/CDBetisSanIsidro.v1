@@ -243,7 +243,7 @@
 			<p class="fichajes">* Se muestran los últimos fichajes correspondientes al periodo invernal.</p>
 			
 			<h1 class="secondary">Foto oficial 2010/2011</h1>
-			<img class="team" src="/wp-content/themes/CDBetisSanIsidro/images/jugadores/team.jpg" alt="Foto oficial 2010/2011" title="Foto oficial 2010/2011">
+			<img class="team" src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/team.jpg" alt="Foto oficial 2010/2011" title="Foto oficial 2010/2011">
 			
 			
 		</div>

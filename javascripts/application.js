@@ -1,4 +1,4 @@
-
+  var theme_url = "/wp-content/themes/CDBetisSanIsidro.v1";
   var before_li;
 
 	$(document).ready(function() {

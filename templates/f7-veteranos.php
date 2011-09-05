@@ -42,7 +42,7 @@
 								</div>
 								<div class="next_match">
 									<p>Betis San Isidro</p>
-									<span><img src="/wp-content/themes/CDBetisSanIsidro/images/escudos/rojoblanco.jpg"/> <p>-</p> <img src="/wp-content/themes/CDBetisSanIsidro/images/escudos/rojoblanco.jpg"/></span>
+									<span><img src="<?php echo get_bloginfo('template_url') ?>/images/escudos/rojoblanco.jpg"/> <p>-</p> <img src="<?php echo get_bloginfo('template_url') ?>/images/escudos/rojoblanco.jpg"/></span>
 									<p>San Francisco</p>
 								</div>
 							</span>
@@ -51,11 +51,11 @@
 								<div class="next_match">
 									<p>Betis San Isidro</p>
 									<span>
-										<img src="/wp-content/themes/CDBetisSanIsidro/images/escudos/rojoblanco.jpg"/>
+										<img src="<?php echo get_bloginfo('template_url') ?>/images/escudos/rojoblanco.jpg"/>
 										<p>-</p>
 										<p class="local"></p>
 										<p class="visitor"></p>
-										<img src="/wp-content/themes/CDBetisSanIsidro/images/escudos/rojoblanco.jpg"/>
+										<img src="<?php echo get_bloginfo('template_url') ?>/images/escudos/rojoblanco.jpg"/>
 									</span>
 									<p>San Francisco</p>
 								</div>
@@ -141,77 +141,77 @@
 					<div class="block">
 						<ul class="players">
 							<li>
-								<img src="http://www.cdbetissanisidro.com/wp-content/themes/CDBetisSanIsidro/images/jugadores/veteranos/fran.jpg" alt="Fran" title="Fran"/>
+								<img src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/veteranos/fran.jpg" alt="Fran" title="Fran"/>
 								<h3>Fran Sánchez</h3>
 								<p>'Fran'</p>
 							</li>
 							<li>
-								<img src="http://www.cdbetissanisidro.com/wp-content/themes/CDBetisSanIsidro/images/jugadores/veteranos/angelito.jpg" alt="Angelito" title="Angelito"/>
+								<img src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/veteranos/angelito.jpg" alt="Angelito" title="Angelito"/>
 								<h3>Ángel L. Corrales</h3>
 								<p>'Angelito'</p>
 							</li>
 							<li>
-								<img src="http://www.cdbetissanisidro.com/wp-content/themes/CDBetisSanIsidro/images/jugadores/veteranos/vivi.jpg" alt="Vivi" title="Vivi"/>
+								<img src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/veteranos/vivi.jpg" alt="Vivi" title="Vivi"/>
 								<h3>Javier Vivanco</h3>
 								<p>'Vivi'</p>
 							</li>
 							<li class="last">
-								<img src="http://www.cdbetissanisidro.com/wp-content/themes/CDBetisSanIsidro/images/jugadores/veteranos/porras.jpg" alt="Porras" title="Porras"/>
+								<img src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/veteranos/porras.jpg" alt="Porras" title="Porras"/>
 								<h3>Francisco Porras</h3>
 								<p>'Porras'</p>
 							</li>
 							<li>
-								<img src="http://www.cdbetissanisidro.com/wp-content/themes/CDBetisSanIsidro/images/jugadores/veteranos/sergio.jpg" alt="Sergio" title="Sergio"/>
+								<img src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/veteranos/sergio.jpg" alt="Sergio" title="Sergio"/>
 								<h3>Sergio Porras</h3>
 								<p>'Sergio'</p>
 							</li>
 							<li>
-								<img src="http://www.cdbetissanisidro.com/wp-content/themes/CDBetisSanIsidro/images/jugadores/veteranos/barba.jpg" alt="Barba" title="Barba"/>
+								<img src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/veteranos/barba.jpg" alt="Barba" title="Barba"/>
 								<h3>Jose M. Barba</h3>
 								<p>'Barba'</p>
 							</li>
 							<li>
-								<img src="http://www.cdbetissanisidro.com/wp-content/themes/CDBetisSanIsidro/images/jugadores/veteranos/portu.jpg" alt="Portu" title="Portu"/>
+								<img src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/veteranos/portu.jpg" alt="Portu" title="Portu"/>
 								<h3>Daniel López</h3>
 								<p>'Portu'</p>
 							</li>
 							<li class="last">
-								<img src="http://www.cdbetissanisidro.com/wp-content/themes/CDBetisSanIsidro/images/jugadores/veteranos/chechu.jpg" alt="Chechu" title="Chechu"/>
+								<img src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/veteranos/chechu.jpg" alt="Chechu" title="Chechu"/>
 								<h3>Sergio Herráez</h3>
 								<p>'Chechu'</p>
 							</li>
 							<li>
-								<img src="http://www.cdbetissanisidro.com/wp-content/themes/CDBetisSanIsidro/images/jugadores/veteranos/julian.jpg" alt="Julián" title="Julián"/>
+								<img src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/veteranos/julian.jpg" alt="Julián" title="Julián"/>
 								<h3>Julián Barrios</h3>
 								<p>'Julián'</p>
 							</li>
 							<li>
-								<img src="http://www.cdbetissanisidro.com/wp-content/themes/CDBetisSanIsidro/images/jugadores/veteranos/nebrera.jpg" alt="Juan" title="Juan"/>
+								<img src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/veteranos/nebrera.jpg" alt="Juan" title="Juan"/>
 								<h3>Juan Nebreda</h3>
 								<p>'Juan'</p>
 							</li>
 							<li>
-								<img src="http://www.cdbetissanisidro.com/wp-content/themes/CDBetisSanIsidro/images/jugadores/veteranos/seco.jpg" alt="Seco" title="Seco"/>
+								<img src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/veteranos/seco.jpg" alt="Seco" title="Seco"/>
 								<h3>Francisco Seco</h3>
 								<p>'Seco'</p>
 							</li>
 							<li class="last">
-								<img src="http://www.cdbetissanisidro.com/wp-content/themes/CDBetisSanIsidro/images/jugadores/veteranos/alex.jpg" alt="Alex" title="Alex"/>
+								<img src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/veteranos/alex.jpg" alt="Alex" title="Alex"/>
 								<h3>Alejandro Mateo</h3>
 								<p>'Alex'</p>
 							</li>
 							<li>
-								<img src="http://www.cdbetissanisidro.com/wp-content/themes/CDBetisSanIsidro/images/jugadores/veteranos/juanito.jpg" alt="Juanito" title="Juanito"/>
+								<img src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/veteranos/juanito.jpg" alt="Juanito" title="Juanito"/>
 								<h3>Juan Galicia</h3>
 								<p>'Juanito'</p>
 							</li>
 							<li>
-								<img src="http://www.cdbetissanisidro.com/wp-content/themes/CDBetisSanIsidro/images/jugadores/veteranos/pepe.jpg" alt="Pepe" title="Pepe"/>
+								<img src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/veteranos/pepe.jpg" alt="Pepe" title="Pepe"/>
 								<h3>Jose Sánchez</h3>
 								<p>'Pepe'</p>
 							</li>
 							<li>
-								<img src="http://www.cdbetissanisidro.com/wp-content/themes/CDBetisSanIsidro/images/jugadores/veteranos/angel.jpg" alt="Ángel" title="Ángel"/>
+								<img src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/veteranos/angel.jpg" alt="Ángel" title="Ángel"/>
 								<h3>Ángel Cauce</h3>
 								<p>'Ángel'</p>
 							</li>
@@ -535,7 +535,7 @@
 				<h1>Veteranos</h1>
 				<p>Los antiguos jugadores del Betis San Isidro se han reunido para formar un equipo de fútbol-7 que cada domingo deleita a la grada con su juego, rememorando aquellos tiempos cuando pertenecían a la primera plantilla.</p>
 				<p>Cada semana os informaremos del resultado del equipo y os traeremos el resumen de cada partido gracias a la colaboración de Alejandro J. Mateo, actual jugador de los Veteranos.</p>
-				<img src="http://www.cdbetissanisidro.com/wp-content/themes/CDBetisSanIsidro/images/veteranos/veteranos.jpg" alt="Veteranos plantilla" title="Veteranos plantilla">
+				<img src="<?php echo get_bloginfo('template_url') ?>/images/veteranos/veteranos.jpg" alt="Veteranos plantilla" title="Veteranos plantilla">
 			</div>
 		</div>
 		<div class="bottom"></div>

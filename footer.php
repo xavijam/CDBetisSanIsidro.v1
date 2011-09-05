@@ -27,7 +27,7 @@
 							<li><a href="http://www.cdbetissanisidro.es/sitemap.xml">Sitemap</a></li>
 						</ul>
 						<span class="developed">
-						  <a href="http://xavijam.github.com" target="_blank"><img src="http://cdbetissanisidro.es/wp-content/themes/CDBetisSanIsidro/images/common/gentoo.jpg" title="Gentoo" alt="Gentoo"/></a>
+						  <a href="http://xavijam.github.com" target="_blank"><img src="<?php echo get_bloginfo('template_url') ?>/images/common/gentoo.jpg" title="Gentoo" alt="Gentoo"/></a>
 						  <p style="float:right">creado por</p>
 						</span>
 					</div>

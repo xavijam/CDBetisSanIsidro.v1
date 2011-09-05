@@ -97,7 +97,7 @@
 
   // CUSTOM LOGIN
   function custom_admin() {
-      echo '<link rel="shortcut icon" href="http://www.cdbetissanisidro.es/wp-content/themes/CDBetisSanIsidro/images/favicon.ico" >';
+      echo '<link rel="shortcut icon" href="'.get_bloginfo('template_url').'/images/favicon.ico" >';
       echo '<style type="text/css">#wphead h1 {padding: 10px 8px 5px 18px;} img#header-logo {display:none}</style>';
   }
   add_action('admin_head', 'custom_admin');
@@ -106,7 +106,7 @@
 
   // CUSTOM ADMIN LOGIN HEADER LOGO
   function custom_login_window() {
-    echo '<link rel="shortcut icon" href="http://www.cdbetissanisidro.es/wp-content/themes/CDBetisSanIsidro/images/favicon.ico" >';
+    echo '<link rel="shortcut icon" href="'.get_bloginfo('template_url').'/images/favicon.ico" >';
 
     echo '<style type="text/css">';
     echo 'html {background:white!important;}';
@@ -438,7 +438,7 @@ endif;
             $is_there = '';
             $_length = 55;
             if ($image!=null) {
-              echo "<img src='/wp-content/themes/CDBetisSanIsidro/plugins/thumb.php?src=".$image[0]."&amp;h=45&amp;w=45&amp;zc=1&amp;q=70' alt='Betis San Isidro' title='Betis San Isidro'/>";
+              echo "<img src='".get_bloginfo('template_url')."/plugins/thumb.php?src=".$image[0]."&amp;h=45&amp;w=45&amp;zc=1&amp;q=70' alt='Betis San Isidro' title='Betis San Isidro'/>";
               $_length = 47;
             }
             $tit = the_title('','',FALSE);
@@ -473,9 +473,9 @@ endif;
 
       if ($imagen == '') {
         $rand = rand(1,9);
-        echo '<img src="/wp-content/themes/CDBetisSanIsidro/images/error/error'.$rand.'.jpg" alt="Noticia principal" title="Noticia principal"/>';
+        echo '<img src="'.get_bloginfo('template_url').'/images/error/error'.$rand.'.jpg" alt="Noticia principal" title="Noticia principal"/>';
       } else {
-        echo '<img src="/wp-content/themes/CDBetisSanIsidro/plugins/thumb.php?src='.$imagen.'&amp;h=305&amp;w=505&amp;zc=1&amp;q=100" alt="Noticia principal" title="Noticia principal"/>';
+        echo '<img src="'.get_bloginfo('template_url').'/plugins/thumb.php?src='.$imagen.'&amp;h=305&amp;w=505&amp;zc=1&amp;q=100" alt="Noticia principal" title="Noticia principal"/>';
       }
       if (strlen($title) > 42) $title = substr($title, 0, 39) . '...';
       $images = get_post_custom_values('image', $post->ID);
@@ -691,7 +691,7 @@ endif;
 
       while (have_posts()): the_post();
         $thePostID = $wp_query->post->ID;
-        echo "<a href='".get_permalink($post->ID)."' class='image'><img src='http://www.cdbetissanisidro.es/wp-content/themes/CDBetisSanIsidro/plugins/thumb.php?src=".get_post_meta($thePostID,'image', true)."&amp;h=60&amp;w=80&amp;zc=1&amp;q=100' alt='Entrevista de la semana' title='Entrevista de la semana' /></a>";
+        echo "<a href='".get_permalink($post->ID)."' class='image'><img src='".get_bloginfo('template_url')."/plugins/thumb.php?src=".get_post_meta($thePostID,'image', true)."&amp;h=60&amp;w=80&amp;zc=1&amp;q=100' alt='Entrevista de la semana' title='Entrevista de la semana' /></a>";
         echo '<p class="middle">Gracias a la periodista Marta Barjola podréis comentarla en las <a href="/noticias/">noticias</a> del equipo.</p>';
         echo "<p><a href='".get_permalink($post->ID)."'>Visita</a> la entrevista de esta semana y comparte tu opinión.</p>";
       endwhile;
