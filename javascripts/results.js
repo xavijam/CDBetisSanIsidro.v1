@@ -31,7 +31,7 @@
       							'<li>'+
       								'<p class="day">'+date.day+' '+date.month.substr(0,3)+'</p>'+
       								'<p class="hour">'+result[i][9]+' horas</p>'+
-      								'<img src="'+result[i][1]+'" title="'+result[i][0]+'" alt="'+result[i][0]+'"/><span class="result"><label>'+result[i][0]+'  <strong> '+result[i][10]+' </strong>  '+result[i][2]+'</label></span><img src="'+result[i][3]+'" title="'+result[i][2]+'" alt="'+result[i][2]+'"/>'+
+      								'<img src="'+theme_url+'/'+result[i][1]+'" title="'+result[i][0]+'" alt="'+result[i][0]+'"/><span class="result"><label>'+result[i][0]+'  <strong> '+result[i][10]+' </strong>  '+result[i][2]+'</label></span><img src="'+theme_url+'/'+result[i][3]+'" title="'+result[i][2]+'" alt="'+result[i][2]+'"/>'+
       								'<p class="chronic">'+cronica+'</p>'+
       							'</li>'+
       						'</ul>'+

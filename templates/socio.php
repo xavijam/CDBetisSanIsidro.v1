@@ -34,7 +34,7 @@
     		<div class="middle">
     		  <?php 
     		    $today = getdate();
-            if ($today['mon'] > 5 && $today['mon'] < 9) {
+            if ($today['mon'] > 5 && $today['mon'] < 10) {
     		  ?>
       		  <p class="info">Rellena este formulario, solo hay una modalidad a elegir, y recibirás un correo electrónico con las instrucciones de pago.</p>
       			<form method="post" action="<?php echo get_bloginfo('template_url') ?>/plugins/mail.php">

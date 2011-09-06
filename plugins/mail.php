@@ -25,12 +25,24 @@
       Un saludo.
     
           CD BETIS SAN ISIDRO';
+          
+  $email_data = '
+    nombre:     '.$_POST['name'].'
+    apellidos:  '.$_POST['surname'].'
+    dirección:  '.$_POST['address'].'
+    cod.postal: '.$_POST['postal_code'].'
+    ciudad:     '.$_POST['city'].'
+    provincia:  '.$_POST['province'].'
+    teléfono:   '.$_POST['phone'].'
+    email:      '.$_POST['email'].'
+    num.socio:  '.$_POST['partner_number'].'
+  ';
   
   $from = 'betis@cdbetissanisidro.com';
   $to = $_POST['email'];
   $subject = 'subject'; 
   $headers = "From: ". $from . "\n";
-  mail_utf8($to, $subject, $text, $headers); 
+  mail_utf8($to, $subject, $text, $headers);
   header('Location: /gracias/'); 
   
   function mail_utf8($to, $subject = '(No subject)', $message = '', $header = '') { 
