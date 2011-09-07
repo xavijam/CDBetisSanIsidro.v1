@@ -15,6 +15,25 @@
   add_action( 'after_setup_theme', 'cdbetissanisidro_setup' );
 
 
+  // ADD NEEDED PAGES
+  function add_pages() {
+    $array = array('Calendario','Clasificación','Club','F7 Veteranos','Gracias','Listado','Noticias','Pescados Madrid','Primer Equipo','Publicidad','Resultados','Rincón de Jose','Socio');
+
+    foreach ($array as $page_title) {
+      $page = get_page_by_title($page_title);
+      if (!$page) {
+        $my_post = array(
+           'post_title' => $page_title,
+           'post_type' => 'page',
+           'post_status' => 'publish',
+           'post_author' => 1
+        );
+        wp_insert_post($my_post);
+      }
+    }
+  }
+  add_action( 'after_setup_theme', 'add_pages' );
+  
 
   // CHANGE AUTHOR URL
   global $wp_rewrite;
