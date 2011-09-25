@@ -1,7 +1,7 @@
 	<div class="normal">
 		<div class="top"></div>
 		<div class="middle">
-			<h1>Resultados 2010/2011</h1>
+			<h1>Resultados 2011/2012</h1>
 			<div class="results">
 				<div class="list_results"></div>
 				<div class="loader">
@@ -16,7 +16,7 @@
 				<p>Si tienes alguna duda, sugerencia o simplemente quieres escribirnos... <a href="mailto:betis@cdbetissanisidro.com">aquí</a>.</p>
 			</div>
 			<div class="second">
-				<h2>CALENDARIO 2011</h2>
+				<h2>CALENDARIO 2012</h2>
 				<p>¿Quieres saber cual será el <a href="/calendario">siguiente encuentro</a> que dispute el equipo?</p>
 			</div>
 			<div class="third">

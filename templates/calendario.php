@@ -13,7 +13,7 @@
 			<p>Si quieres puedes visitar la página de <a href="/noticias">noticias</a> y estar al tando del club.</p>
 		</div>
 		<div class="second">
-			<h2>CLASIFICACIÓN 2011</h2>
+			<h2>CLASIFICACIÓN 2012</h2>
 			<p>¿Cúal es la posición del Betis San Isidro? Respuesta <a href="/clasificacion">aquí</a>.</p>
 		</div>
 		<div class="third">

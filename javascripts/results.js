@@ -5,7 +5,7 @@
 		var month = (now.getMonth()+1);
 		var today = month + '/' + now.getDate() + '/' + now.getFullYear();
 		
-		sql="SELECT * FROM 278823 WHERE Date < '"+today+"' ORDER BY Date ASC";
+		sql="SELECT * FROM 1409775 WHERE Date < '"+today+"' ORDER BY Date ASC";
     $.ajax({
           url: "http://tables.googlelabs.com/api/query?sql="+escape(sql),
           dataType: "jsonp",
