@@ -72,7 +72,7 @@
 							<li class="parent">
 								<a href="#equipo">Equipo</a>
 								<ul class="team">
-									<li><a class="sub disabled">Primer equipo</a></li>
+									<li><a class="sub" href="/primer-equipo">Primer equipo</a></li>
 									<li><a class="sub" href="/clasificacion">Clasificación</a></li>
 									<li><a class="sub" href="/resultados">Resultados</a></li>
 									<li><a class="sub" href="/calendario">Calendario</a></li>

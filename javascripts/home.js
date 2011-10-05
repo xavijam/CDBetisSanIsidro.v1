@@ -195,11 +195,13 @@
 
   // Change team name to other correct one
   function getTeamName(str) {
+    console.log(str);
+    
     if (str.search('vallecas')!=-1) {return "Vallecas C.F."}
     if (str.search('gri')!=-1) {return "C.D. Griñon"}
     if (str.search('aranjuez')!=-1) {return "Real Aranjuez"}
     if (str.search('loeches')!=-1) {return "C.D. Loeches"}
-    if (str.search('legan')!=-1) {return "C.D. Leganés B"}
+    if (str.search('anãs')!=-1) {return "C.D. Leganés B"}
     if (str.search('eugenia')!=-1) {return "C.D. Santa Eugenia"}
     if (str.search('lugo')!=-1) {return "Lugo Fuenlabrada"} 
     if (str.search('arroyomolinos')!=-1) {return "U.D. Arroyomolinos"}

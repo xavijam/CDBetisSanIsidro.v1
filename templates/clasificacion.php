@@ -2,7 +2,7 @@
 	<div class="top">
 	</div>
 	<div class="middle">
-		<h1>Clasificación 10/11</h1>
+		<h1>Clasificación 11/12</h1>
 		<div class="classification">
 			<table class="preferente" cellpadding='0' cellspacing='0'> 
 				<thead> 
