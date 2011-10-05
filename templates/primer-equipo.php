@@ -204,7 +204,6 @@
 						<h3>Moro</h3>
 						<p>Centrocampista</p>
 						<p>24 años</p>
-						<img class="nuevo" src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/fichaje.png" alt="Fichaje" title="Fichaje" />
 					</div>
 				</li>
 				<li class="last">
