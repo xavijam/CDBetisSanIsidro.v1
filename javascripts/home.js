@@ -16,7 +16,6 @@
                     dialog.container.fadeOut('fast',function(){
                       dialog.overlay.fadeOut('fast');
                     });
-                  
       	          }
       });
       $('div.modal_partners a.close').click(function(ev){
@@ -195,8 +194,6 @@
 
   // Change team name to other correct one
   function getTeamName(str) {
-    console.log(str);
-    
     if (str.search('vallecas')!=-1) {return "Vallecas C.F."}
     if (str.search('gri')!=-1) {return "C.D. Griñon"}
     if (str.search('aranjuez')!=-1) {return "Real Aranjuez"}

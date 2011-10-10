@@ -133,7 +133,7 @@
 				</li>	
 				<li>
 					<div class="image">
-						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/default-avatar.gif" alt="Rafa" title="Rafa" />
+						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/rafa.jpg" alt="Rafa" title="Rafa" />
 						<h3>Rafa</h3>
 						<p>Defensa</p>
 						<p>26 años</p>
@@ -275,7 +275,7 @@
 				</li>
 				<li class="last">
 					<div class="image">
-						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/aitor.jpg" alt="Aitor" title="Aitor" />
+						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/default-avatar.gif" alt="Aitor" title="Aitor" />
 						<h3>Aitor</h3>
 						<p>Delantero</p>
 						<p>20 años</p>
