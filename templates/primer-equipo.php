@@ -13,7 +13,7 @@
         </li>
         <li>
           <div class="image">
-            <img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/default-avatar.gif" alt="Miguel Ángel" title="Miguel Ángel" />
+            <img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/miguel_angel_segundo.jpg" alt="Miguel Ángel" title="Miguel Ángel" />
             <h3>Miguel Ángel</h3>
             <p>Segundo Entrenador</p>
           </div>
@@ -27,7 +27,7 @@
         </li>
         <li>
           <div class="image">
-            <img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/holguin.jpg" alt="Francisco Holguín" title="Francisco Holguín" />
+            <img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/francis.jpg" alt="Francisco Holguín" title="Francisco Holguín" />
             <h3>Francisco Holguín</h3>
             <p>Delegado</p>
           </div>
@@ -157,10 +157,10 @@
 				</li>
 				<li>
 					<div class="image">
-						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/default-avatar.gif" alt="Marcos" title="Marcos" />
+						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/marcos.jpg" alt="Marcos" title="Marcos" />
 						<h3>Marcos</h3>
 						<p>Centrocampista</p>
-						<p>20 años</p>
+						<p>19 años</p>
 						<img class="nuevo" src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/fichaje.png" alt="Fichaje" title="Fichaje" />
 					</div>
 				</li>
@@ -264,12 +264,21 @@
 						<p>20 años</p>
 					</div>
 				</li>
-				<li class="last">
+				<li>
 					<div class="image">
 						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/samu2.jpg" alt="Samu" title="Samu" />
 						<h3>Samu</h3>
 						<p>Delantero</p>
 						<p>26 años</p>
+						<img class="nuevo" src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/fichaje.png" alt="Fichaje" title="Fichaje" />
+					</div>
+				</li>
+				<li class="last">
+					<div class="image">
+						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/aitor.jpg" alt="Aitor" title="Aitor" />
+						<h3>Aitor</h3>
+						<p>Delantero</p>
+						<p>20 años</p>
 						<img class="nuevo" src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/fichaje.png" alt="Fichaje" title="Fichaje" />
 					</div>
 				</li>
