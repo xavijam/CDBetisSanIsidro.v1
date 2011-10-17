@@ -6,7 +6,7 @@
 				<li><a onclick="goTo('players')" href="#plantilla">PLANTILLA</a></li>
 				<li><a onclick="goTo('results')" href="#resultados">RESULTADOS</a></li>
 				<li><a onclick="goTo('clasliga')" href="#clasificacion">CLAS.LIGA</a></li>
-				<li class="last"><a onclick="goTo('clascopa')" href="#clasificacion">CLAS.COPA</a></li>
+				<li class="last"><a class="disabled">CLAS.COPA</a></li> <!--href="#clasificacion" onclick="goTo('clascopa')" -->
 			</ul>
 		</div>
 		<div class="middle veteranos">
@@ -42,7 +42,7 @@
 								</div>
 								<div class="next_match">
 									<p>Betis San Isidro</p>
-									<span><img src="<?php echo get_bloginfo('template_url') ?>/images/escudos/rojoblanco.jpg"/> <p>-</p> <img src="<?php echo get_bloginfo('template_url') ?>/images/escudos/rojoblanco.jpg"/></span>
+									<span><img src="<?php echo bloginfo( 'template_url' ); ?>/images/escudos/rojoblanco.jpg"/> <p>-</p> <img src="<?php echo get_bloginfo('template_url') ?>/images/escudos/rojoblanco.jpg"/></span>
 									<p>San Francisco</p>
 								</div>
 							</span>
@@ -62,7 +62,7 @@
 							</span>
 						</div>
 						<div class="right_vete">
-							<h3>CLASIFICACIÓN COPA</h3>
+							<h3>CLASIFICACIÓN LIGA</h3>
 							<table class="veteranos_inicio" cellpadding='0' cellspacing='0'> 
   							<thead> 
   								<tr> 
@@ -230,8 +230,8 @@
 							    <th width="30">Pts</th> 
 									<th width="30">J</th>
 							    <th width="30">G</th>
-									<th width="30">P</th> 
-							    <th width="30">E</th>
+									<th width="30">E</th> 
+							    <th width="30">P</th>
 									<th width="30">GF</th>
 									<th width="30">GC</th>
 							    <th width="30">DG</th>
