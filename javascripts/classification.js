@@ -69,7 +69,7 @@
      if (str.search('arroyomolinos')!=-1) {return "U.D. Arroyomolinos"}
      if (str.search('oreja')!=-1) {return "Colmenar de Oreja"}
      if (str.search('ciempozuelos')!=-1) {return "C.D. Ciempozuelos"}
-     if (str.search('isidro')!=-1) {return "Betis San Isidro"}
+     if (str.search('idro')!=-1) {return "Betis San Isidro"}
      if (str.search('bruno')!=-1) {return "Yébenes San Bruno"}
      if (str.search('villaverde')!=-1) {return "Villaverde"}
      if (str.search('boadilla')!=-1) {return "Boadilla"}
