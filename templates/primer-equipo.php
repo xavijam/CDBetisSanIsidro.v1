@@ -200,14 +200,6 @@
 				</li>
 				<li>
 					<div class="image">
-						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/default-avatar.gif" alt="Moro" title="Moro" />
-						<h3>Moro</h3>
-						<p>Centrocampista</p>
-						<p>24 años</p>
-					</div>
-				</li>
-				<li class="last">
-					<div class="image">
 						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/aaron.jpg" alt="Aarón" title="Aarón" />
 						<h3>Aarón</h3>
 						<p>Centrocampista</p>
@@ -215,12 +207,20 @@
 						<img class="nuevo" src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/fichaje.png" alt="Fichaje" title="Fichaje" />
 					</div>
 				</li>
-				<li>
+				<li class="last">
 					<div class="image">
 						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/cortes.jpg" alt="Cortés" title="Cortés" />
 						<h3>Cortés</h3>
 						<p>Centrocampista</p>
 						<p>21 años</p>
+					</div>
+				</li>
+				<li>
+					<div class="image">
+						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/marques.jpg" alt="Marques" title="Marques" />
+						<h3>Marques</h3>
+						<p>Centrocampista</p>
+						<p>20 años</p>
 					</div>
 				</li>
 				<li>
@@ -273,9 +273,9 @@
 						<img class="nuevo" src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/fichaje.png" alt="Fichaje" title="Fichaje" />
 					</div>
 				</li>
-				<li class="last">
+				<li>
 					<div class="image">
-						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/default-avatar.gif" alt="Aitor" title="Aitor" />
+						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/aitor.jpg" alt="Aitor" title="Aitor" />
 						<h3>Aitor</h3>
 						<p>Delantero</p>
 						<p>20 años</p>
@@ -283,10 +283,9 @@
 					</div>
 				</li>
 			</ul>
-			<!-- <p class="fichajes">* Se muestran los últimos fichajes correspondientes al periodo invernal.</p> -->
 			
-			<!-- <h1 class="secondary">Foto oficial 2010/2011</h1>
-			     <img class="team" src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/team.jpg" alt="Foto oficial 2010/2011" title="Foto oficial 2010/2011"/> -->
+			<h1 class="secondary">Foto oficial 2011/2012</h1>
+			<img class="team" src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/primer_equipo/team.jpg" alt="Foto oficial 2011/2012" title="Foto oficial 2011/2012"/>
 			
 			
 		</div>
