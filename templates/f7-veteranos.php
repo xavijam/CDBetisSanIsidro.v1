@@ -146,11 +146,6 @@
 								<p>'Fran'</p>
 							</li>
 							<li>
-								<img src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/veteranos/angelito.jpg" alt="Angelito" title="Angelito"/>
-								<h3>Ángel L. Corrales</h3>
-								<p>'Angelito'</p>
-							</li>
-							<li>
 								<img src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/veteranos/vivi.jpg" alt="Vivi" title="Vivi"/>
 								<h3>Javier Vivanco</h3>
 								<p>'Vivi'</p>
@@ -170,11 +165,6 @@
 								<h3>Jose M. Barba</h3>
 								<p>'Barba'</p>
 							</li>
-							<li>
-								<img src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/veteranos/portu.jpg" alt="Portu" title="Portu"/>
-								<h3>Daniel López</h3>
-								<p>'Portu'</p>
-							</li>
 							<li class="last">
 								<img src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/veteranos/chechu.jpg" alt="Chechu" title="Chechu"/>
 								<h3>Sergio Herráez</h3>
@@ -184,11 +174,6 @@
 								<img src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/veteranos/julian.jpg" alt="Julián" title="Julián"/>
 								<h3>Julián Barrios</h3>
 								<p>'Julián'</p>
-							</li>
-							<li>
-								<img src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/veteranos/nebrera.jpg" alt="Juan" title="Juan"/>
-								<h3>Juan Nebreda</h3>
-								<p>'Juan'</p>
 							</li>
 							<li>
 								<img src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/veteranos/seco.jpg" alt="Seco" title="Seco"/>
@@ -214,6 +199,11 @@
 								<img src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/veteranos/angel.jpg" alt="Ángel" title="Ángel"/>
 								<h3>Ángel Cauce</h3>
 								<p>'Ángel'</p>
+							</li>
+							<li>
+								<img src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/veteranos/dimitri.jpg" alt="Ángel" title="Ángel"/>
+								<h3>Dimitri</h3>
+								<p>'Dimitri'</p>
 							</li>
 						</ul>
 					</div>

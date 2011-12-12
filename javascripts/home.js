@@ -81,13 +81,17 @@
                 count++;
                 $("table tbody").append("<tr><td class='center'>"+data_team[0]+"</td><td>"+data_team[1]+"</td><td class='center'>"+data_team[2]+"</td><td class='center'>"+data_team[9]+"</td></tr>");
               } 
-            } else {
+            } else {              
               if ($("table tbody tr").size()>4) {
                 $("table tbody tr:eq(0)").remove();
               }
               $("table tbody").append("<tr><td class='center'>"+data_team[0]+"</td><td>"+data_team[1]+"</td><td class='center'>"+data_team[2]+"</td><td class='center'>"+data_team[9]+"</td></tr>");
             }
           }
+  		  }
+  		  
+  		  if ($("table tbody tr").size()>5) {
+  		    $("table tbody tr:eq(0)").remove();
   		  }
   		}
   	});
@@ -118,13 +122,10 @@
   		var hour = now.getHours() +':'+ now.getMinutes();
 
 
-      if (hour>'15:00') {
-        var today = month + '/' + (now.getDate()+1) + '/' + now.getFullYear();
-      } else {
-  			var today = month + '/' + now.getDate() + '/' + now.getFullYear();
-  		}
 
-  		sql="SELECT * FROM 1409775 WHERE Date > '"+today+"' ORDER BY Date ASC LIMIT 1";
+  		var today = month + '/' + now.getDate() + '/' + now.getFullYear();
+
+  		sql="SELECT * FROM 1409775 WHERE Date >= '"+today+"' ORDER BY Date ASC LIMIT 1";
       $.ajax({
         url: "http://tables.googlelabs.com/api/query?sql="+escape(sql),
         dataType: "jsonp",
@@ -198,13 +199,13 @@
     if (str.search('gri')!=-1) {return "C.D. Griñon"}
     if (str.search('aranjuez')!=-1) {return "Real Aranjuez"}
     if (str.search('loeches')!=-1) {return "C.D. Loeches"}
-    if (str.search('anãs')!=-1) {return "C.D. Leganés B"}
+    if (str.search(/\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+"/)!=-1) {return "C.D. Leganés B"}
     if (str.search('eugenia')!=-1) {return "C.D. Santa Eugenia"}
     if (str.search('lugo')!=-1) {return "Lugo Fuenlabrada"} 
     if (str.search('arroyomolinos')!=-1) {return "U.D. Arroyomolinos"}
     if (str.search('oreja')!=-1) {return "Colmenar de Oreja"}
     if (str.search('ciempozuelos')!=-1) {return "C.D. Ciempozuelos"}
-    if (str.search('idro')!=-1) {return "Betis San Isidro"}
+    if (str.search('dro')!=-1) {return "Betis San Isidro"}
     if (str.search('bruno')!=-1) {return "Yébenes San Bruno"}
     if (str.search('villaverde')!=-1) {return "Villaverde"}
     if (str.search('boadilla')!=-1) {return "Boadilla"}

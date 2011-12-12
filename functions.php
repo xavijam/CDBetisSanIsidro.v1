@@ -588,84 +588,12 @@ endif;
           </div>';
   }
 
-
   // Fourth block
   function fourthBlock() {
-    echo '<div class="block bottom_left comments">
-            <h2>Última actividad</h2>
-            <ul class="comments">';
-
-    // COMMENTS
-     $comments = get_comments('number=3,status=approve');
-    foreach($comments as $comment) :
-      $user = get_userdata($comment->user_id);
-
-      if(userphoto_exists($user)) {
-        $image = '<img src="/wp-content/uploads/userphoto/'.$user->userphoto_thumb_file.'" alt="'.$comment->comment_author.'" title="'.$comment->comment_author.'"/>';
-      } else {
-        $image = '<img src="http://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=44" alt="'.$comment->comment_author.'" title="'.$comment->comment_author.'"/>';
-      }
-
-      $title = get_the_title($comment->comment_post_ID);
-      if (strlen($title)>39) {
-        $title = substr($title, 0, 36) . '...';
-      }
-
-
-      $date = strtotime($comment->comment_date_gmt);
-      $new = _day_diff($date)<172800;
-      $ago = "hace " ._time_diff($date);
-      $author = (strlen($comment->comment_author)>13)?substr($comment->comment_author,0,10).'...':$comment->comment_author;
-      echo '<li class="comment" alt="'.$date.'">
-              <div class="left">
-                '.$image.'
-              </div>
-              <div class="right">
-                <h4>'.$author.'</h4><p>'.$ago.'</p>
-                <p class="comment">comentó en <a href="'.get_comment_link($comment->comment_ID).'">'.$title.'</a></p>
-              </div>';
-      echo '</li>';
-
-    endforeach;
-
-
-    // POST
-    $posts = get_posts('numberpost=3');
-
-    foreach($posts as $post) :
-      $user = get_userdata($post->post_author);
-
-      if(userphoto_exists($user)) {
-        $image = '<img src="/wp-content/uploads/userphoto/'.$user->userphoto_thumb_file.'" alt="'.$comment->comment_author.'" title="'.$comment->comment_author.'"/>';
-      } else {
-        $image = '<img src="http://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=44" alt="'.$comment->comment_author.'" title="'.$comment->comment_author.'"/>';
-      }
-
-      $title = get_the_title($post->ID);
-      if (strlen($title)>43) {
-        $title = substr($title, 0, 40) . '...';
-      }
-
-
-      $date = strtotime($post->post_date_gmt);
-      $new = _day_diff($date)<172800;
-      $ago = "hace " ._time_diff($date);
-      $author = (strlen($user->display_name)>13)?substr($user->display_name,0,10).'...':$user->display_name;
-
-      echo '<li class="post" alt="'.$date.'">
-              <div class="left">
-                '.$image.'
-              </div>
-              <div class="right">
-                <h4>'.$author.'</h4><p>'.$ago.'</p>
-                <p class="comment">escribió <a href="'.get_permalink($post->ID).'">'.$title.'</a></p>
-              </div>';
-      echo '</li>';
-
-    endforeach;
-
-
-    echo '</ul></div>';
+    echo '<div class="block sponsors">
+            <h2>Nuevas entrevistas</h2>
+            <iframe width="262" height="219" style="margin:11px 0 0 11px" src="http://www.youtube.com/embed/qwYYbb_3GsE" frameborder="0" allowfullscreen></iframe>
+          </div>';
   }
 
 

@@ -142,7 +142,7 @@
 		var month = (now.getMonth()+1);
 		var today = month + '/' + now.getDate() + '/' + now.getFullYear();
 
-		sql="SELECT * FROM 1872646 WHERE Date < '"+today+"' ORDER BY Date ASC";
+		sql="SELECT * FROM 1872646 WHERE Date < '"+today+"' ORDER BY Date ASC LIMIT 1";
     $.ajax({
           url: "http://tables.googlelabs.com/api/query?sql="+escape(sql),
           dataType: "jsonp",
@@ -309,8 +309,9 @@
 		var now = new Date();
 		var month = (now.getMonth()+1);
 		var today = month + '/' + now.getDate() + '/' + now.getFullYear();
+    
+		sql="SELECT * FROM 1872646 WHERE Date >= '"+today+"' ORDER BY Date ASC LIMIT 1";
 
-		sql="SELECT * FROM 1872646 WHERE Date > '"+today+"' ORDER BY Date ASC LIMIT 1";
     $.ajax({
           url: "http://tables.googlelabs.com/api/query?sql="+escape(sql),
           dataType: "jsonp",
