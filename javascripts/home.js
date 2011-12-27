@@ -5,7 +5,7 @@
     var cookie = $.cookie('cdbetissanisidro');
     var today = new Date();
 
-    if (cookie==null && (today.getMonth()+1>5) && (today.getMonth()<12)) {
+    if (cookie==null && (today.getMonth()+1>5) && (today.getMonth()<8)) {
       $("div.modal_partners").modal({
         onOpen:   function (dialog) {
                     dialog.data.show();

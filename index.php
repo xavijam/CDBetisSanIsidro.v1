@@ -36,12 +36,12 @@
   </div> -->
 
     
-	<div class="modal_partners">
+<!-- 	<div class="modal_partners">
     <a class="close" href="#cerrar">X</a>
     <h3>Premio porra mes de diciembre</h3>
     <p>"Os informamos que el premio de la porra del mes de diciembre se entregará con el sorteo del próximo sábado dia 17, debido a que es el último sábado del mes en que se realizará sorteo de la lotería nacional. Gracias por vuestra colaboración"</p>
     <p><small>Un saludo<br/>CD Betis San Isidro</small></p>
-  </div>
+  </div> -->
 
 
 	<script src="<?php wp_js('/javascripts/plugins/jquery.cycle.js,/javascripts/plugins/jquery.simplemodal.1.4.1.min.js,/javascripts/plugins/jquery.cookie.js,/javascripts/plugins/jquery.scrollTo-1.4.2-min.js,/javascripts/plugins/leaflet.js,/javascripts/home.js') ?>" type="text/javascript" charset="utf-8"></script>
