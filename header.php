@@ -52,7 +52,6 @@
 						<p>Patrocinado por:</p>
 						<div>
 							<a class="jose" href="/rincon-de-jose/"></a>
-							<a class="madrid" href="/pescados-madrid"></a>
 						</div>
 					</div>
 				</div>
@@ -94,7 +93,6 @@
 								<ul class="sponsors">
 									<li><a class="sub" href="/rincon-de-jose/">Rincón de Jose</a></li>
 									<li><a class="sub" href="http://www.conservaslapiedad.com/" target="_blank">La Piedad</a></li>						
-									<li><a class="sub" href="/pescados-madrid/">Pescados Mad.</a></li>
 								</ul>						
 							</li>
 							<li class="parent"><a href="mailto:betis@cdbetissanisidro.com">Contacto</a></li>

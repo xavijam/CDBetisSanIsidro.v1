@@ -54,14 +54,6 @@
 				</li>
 				<li>
 					<div class="image">
-						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/jose_portero.jpg" alt="Jose" title="Jose" />
-						<h3>Jose</h3>
-						<p>Portero</p>
-						<p>20 años</p>
-					</div>
-				</li>
-				<li>
-					<div class="image">
 						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/miyabi.jpg" alt="Miyabi" title="Miyabi" />
 						<h3>Miyabi</h3>
 						<p>Portero</p>
@@ -69,7 +61,6 @@
 						<img class="nuevo" src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/fichaje.png" alt="Fichaje" title="Fichaje" />
 					</div>
 				</li>
-				
 				<li>
 					<div class="image">
 						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/mara.jpg" alt="Carlos Mara" title="Carlos Mara" />
@@ -78,7 +69,7 @@
 						<p>23 años</p>
 					</div>
 				</li>
-				<li  class="last">
+				<li >
 					<div class="image">
 						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/pablo2.jpg" alt="Pablo" title="Pablo" />
 						<h3>Pablo</h3>
@@ -87,7 +78,7 @@
 						<img class="nuevo" src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/fichaje.png" alt="Fichaje" title="Fichaje" />
 					</div>
 				</li>
-				<li>
+				<li class="last">
 					<div class="image">
 						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/moncho.jpg" alt="Moncho" title="Moncho" />
 						<h3>Moncho</h3>
@@ -122,7 +113,7 @@
 						<img class="nuevo" src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/fichaje.png" alt="Fichaje" title="Fichaje" />
 					</div>
 				</li>
-				<li class="last">
+				<li>
 					<div class="image">
 						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/domingo.jpg" alt="Domingo" title="Domingo" />
 						<h3>Domingo</h3>
@@ -131,7 +122,7 @@
 						<img class="nuevo" src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/fichaje.png" alt="Fichaje" title="Fichaje" />
 					</div>
 				</li>	
-				<li>
+				<li class="last">
 					<div class="image">
 						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/rafa.jpg" alt="Rafa" title="Rafa" />
 						<h3>Rafa</h3>
@@ -164,7 +155,7 @@
 						<img class="nuevo" src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/fichaje.png" alt="Fichaje" title="Fichaje" />
 					</div>
 				</li>
-				<li class="last">
+				<li>
 					<div class="image">
 						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/portu.jpg" alt="Portu" title="Portu" />
 						<h3>Portu</h3>
@@ -173,7 +164,7 @@
 						<img class="nuevo" src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/fichaje.png" alt="Fichaje" title="Fichaje" />
 					</div>
 				</li>
-				<li>
+				<li class="last">
 					<div class="image">
 						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/miguel.jpg" alt="Miguel" title="Miguel" />
 						<h3>Miguel</h3>
@@ -207,7 +198,7 @@
 						<img class="nuevo" src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/fichaje.png" alt="Fichaje" title="Fichaje" />
 					</div>
 				</li>
-				<li class="last">
+				<li>
 					<div class="image">
 						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/cortes.jpg" alt="Cortés" title="Cortés" />
 						<h3>Cortés</h3>
@@ -215,7 +206,7 @@
 						<p>21 años</p>
 					</div>
 				</li>
-				<li>
+				<li class="last">
 					<div class="image">
 						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/marques.jpg" alt="Marques" title="Marques" />
 						<h3>Marques</h3>
@@ -248,7 +239,7 @@
 						<p>29 años</p>
 					</div>
 				</li>
-				<li class="last">
+				<li>
 					<div class="image">
 						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/nogales.jpg" alt="Nogales" title="Nogales" />
 						<h3>Nogales</h3>
@@ -256,21 +247,12 @@
 						<p>23 años</p>
 					</div>
 				</li>
-				<li>
+				<li class="last">
 					<div class="image">
 						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/clemen.jpg" alt="Clemen" title="Clemen" />
 						<h3>Clemen</h3>
 						<p>Delantero</p>
 						<p>20 años</p>
-					</div>
-				</li>
-				<li>
-					<div class="image">
-						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/samu2.jpg" alt="Samu" title="Samu" />
-						<h3>Samu</h3>
-						<p>Delantero</p>
-						<p>26 años</p>
-						<img class="nuevo" src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/fichaje.png" alt="Fichaje" title="Fichaje" />
 					</div>
 				</li>
 				<li>
