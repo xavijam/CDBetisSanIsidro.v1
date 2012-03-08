@@ -150,12 +150,12 @@
 								<h3>Javier Vivanco</h3>
 								<p>'Vivi'</p>
 							</li>
-							<li class="last">
+							<li>
 								<img src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/veteranos/porras.jpg" alt="Porras" title="Porras"/>
 								<h3>Francisco Porras</h3>
 								<p>'Porras'</p>
 							</li>
-							<li>
+							<li class="last">
 								<img src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/veteranos/sergio.jpg" alt="Sergio" title="Sergio"/>
 								<h3>Sergio Porras</h3>
 								<p>'Sergio'</p>
@@ -165,7 +165,7 @@
 								<h3>Jose M. Barba</h3>
 								<p>'Barba'</p>
 							</li>
-							<li class="last">
+							<li>
 								<img src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/veteranos/chechu.jpg" alt="Chechu" title="Chechu"/>
 								<h3>Sergio Herráez</h3>
 								<p>'Chechu'</p>
@@ -175,12 +175,12 @@
 								<h3>Julián Barrios</h3>
 								<p>'Julián'</p>
 							</li>
-							<li>
+							<li class="last">
 								<img src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/veteranos/seco.jpg" alt="Seco" title="Seco"/>
 								<h3>Francisco Seco</h3>
 								<p>'Seco'</p>
 							</li>
-							<li class="last">
+							<li>
 								<img src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/veteranos/alex.jpg" alt="Alex" title="Alex"/>
 								<h3>Alejandro Mateo</h3>
 								<p>'Alex'</p>
@@ -195,7 +195,7 @@
 								<h3>Jose Sánchez</h3>
 								<p>'Pepe'</p>
 							</li>
-							<li>
+							<li class="last">
 								<img src="<?php echo get_bloginfo('template_url') ?>/images/jugadores/veteranos/angel.jpg" alt="Ángel" title="Ángel"/>
 								<h3>Ángel Cauce</h3>
 								<p>'Ángel'</p>
