@@ -54,10 +54,10 @@
 				</li>
 				<li>
 					<div class="image">
-						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/miyabi.jpg" alt="Miyabi" title="Miyabi" />
-						<h3>Miyabi</h3>
+						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/carrasquilla.jpg" alt="Carrasquilla" title="Carrasquilla" />
+						<h3>Carrasquilla</h3>
 						<p>Portero</p>
-						<p>20 años</p>
+						<p>38 años</p>
 						<img class="nuevo" src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/fichaje.png" alt="Fichaje" title="Fichaje" />
 					</div>
 				</li>
@@ -115,10 +115,10 @@
 				</li>
 				<li>
 					<div class="image">
-						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/domingo.jpg" alt="Domingo" title="Domingo" />
-						<h3>Domingo</h3>
+						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/pablo_2.jpg" alt="Pablo" title="Pablo" />
+						<h3>Pablo</h3>
 						<p>Defensa</p>
-						<p>19 años</p>
+						<p>24 años</p>
 						<img class="nuevo" src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/fichaje.png" alt="Fichaje" title="Fichaje" />
 					</div>
 				</li>	
@@ -264,6 +264,24 @@
 						<img class="nuevo" src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/fichaje.png" alt="Fichaje" title="Fichaje" />
 					</div>
 				</li>
+        <li>
+          <div class="image">
+            <img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/galan.jpg" alt="Galán" title="Galán" />
+            <h3>Galán</h3>
+            <p>Delantero</p>
+            <p>22 años</p>
+            <img class="nuevo" src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/fichaje.png" alt="Fichaje" title="Fichaje" />
+          </div>
+        </li>
+        <li>
+          <div class="image">
+            <img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/default-avatar.gif" alt="Delfín Mosibe" title="Delfín Mosibe" />
+            <h3>Delfín Mosibe</h3>
+            <p>Delantero</p>
+            <p>20 años</p>
+            <img class="nuevo" src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/fichaje.png" alt="Fichaje" title="Fichaje" />
+          </div>
+        </li>
 			</ul>
 			
 			<h1 class="secondary">Foto oficial 2011/2012</h1>
