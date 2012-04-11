@@ -548,7 +548,7 @@ endif;
   // Second block
   function secondBlock() {
     if (seasonOrNot()) {
-      echo '<div class="block"><h2>¿Donde jugamos?<small><sup>(Click en el marker)</sup></small></h2><div id="map"></div></div>';
+      echo '<div class="block"><h2>¿Donde jugamos? <small><sup> (Click en el marker)</sup></small></h2><div id="map"></div></div>';
     } else {
       echo '<div class="block sponsors">
               <h2><a href="/publicidad">¿Quieres ser patrocinador?</a></h2>

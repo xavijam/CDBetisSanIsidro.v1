@@ -43,7 +43,6 @@
           $('div.middle span.arrow').animate({marginLeft:move+'px'},500);
           $('div.left').scrollTo({top:'0', left:'0'},500);
           var block_height = $('div.block:eq(0)').height() + 60;
-          $('div.middle div.left').animate({height:block_height+'px'},200);
         }
       } else if (where == 'players') {  
         if (!$('div.top ul li:eq(1)').hasClass('selected')) {         
@@ -55,7 +54,6 @@
           $('div.middle span.arrow').animate({marginLeft:move+'px'},500);
           $('div.left').scrollTo({top:'0', left:'550px'},500);
           var block_height = $('div.block:eq(1)').height() + 60;
-          $('div.middle div.left').animate({height:block_height+'px'},200);
         }
       } else if (where == 'results') {
         if (!$('div.top ul li:eq(2)').hasClass('selected')) {
@@ -67,7 +65,6 @@
           $('div.middle span.arrow').animate({marginLeft:move+'px'},500);
           $('div.left').scrollTo({top:'0', left:'1100px'},500);
           var block_height = $('div.block:eq(2)').height() + 60;
-          $('div.middle div.left').animate({height:block_height+'px'},200);
         }
       } else if (where == 'clasliga') {
         if (!$('div.top ul li:eq(3)').hasClass('selected')) {
@@ -79,7 +76,6 @@
           $('div.middle span.arrow').animate({marginLeft:move+'px'},500);
           $('div.left').scrollTo({top:'0', left:'1650px'},500);
           var block_height = $('div.block:eq(3)').height() + 60;
-          $('div.middle div.left').animate({height:block_height+'px'},200);
         }
       } else {
         if (!$('div.top ul li:eq(4)').hasClass('selected')) {
@@ -91,9 +87,10 @@
           $('div.middle span.arrow').animate({marginLeft:move+'px'},500);
           $('div.left').scrollTo({top:'0', left:'2200px'},500);
           var block_height = $('div.block:eq(4)').height() + 60;
-          $('div.middle div.left').animate({height:block_height+'px'},200);
         }
       }
+
+      $('div.middle div.left').height(block_height);
     }
   }
 
@@ -259,7 +256,7 @@
 		var month = (now.getMonth()+1);
 		var today = month + '/' + now.getDate() + '/' + now.getFullYear();
 
-		sql="SELECT * FROM 592473 ORDER BY Posicion ASC";
+		sql="SELECT * FROM 1876171 ORDER BY Posicion ASC";
     $.ajax({
           url: "http://tables.googlelabs.com/api/query?sql="+escape(sql),
           dataType: "jsonp",

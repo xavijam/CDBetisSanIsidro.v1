@@ -5,8 +5,8 @@
 				<li class="selected"><a onclick="goTo('start')" href="#inicio">INICIO</a></li>
 				<li><a onclick="goTo('players')" href="#plantilla">PLANTILLA</a></li>
 				<li><a onclick="goTo('results')" href="#resultados">RESULTADOS</a></li>
-				<li><a onclick="goTo('clasliga')" href="#clasificacion">CLAS.LIGA</a></li>
-				<li class="last"><a class="disabled">CLAS.COPA</a></li> <!--href="#clasificacion" onclick="goTo('clascopa')" -->
+				<li><a class="disabled">CLAS.LIGA</a></li> <!-- onclick="goTo('clasliga')" href="#clasificacion" -->
+				<li class="last"><a href="#clasificacion" onclick="goTo('clascopa')">CLAS.COPA</a></li> <!--href="#clasificacion" onclick="goTo('clascopa')" -->
 			</ul>
 		</div>
 		<div class="middle veteranos">
@@ -62,7 +62,7 @@
 							</span>
 						</div>
 						<div class="right_vete">
-							<h3>CLASIFICACIÓN LIGA</h3>
+							<h3>CLASIFICACIÓN COPA</h3>
 							<table class="veteranos_inicio" cellpadding='0' cellspacing='0'> 
   							<thead> 
   								<tr> 
