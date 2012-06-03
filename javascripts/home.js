@@ -5,25 +5,25 @@
     var cookie = $.cookie('cdbetissanisidro');
     var today = new Date();
 
-    if (cookie==null && (today.getMonth()+1>5) && (today.getMonth()<8)) {
-      $("div.modal_partners").modal({
-        onOpen:   function (dialog) {
-                    dialog.data.show();
-                    dialog.container.show();
-      	            dialog.overlay.fadeIn('slow');
-      	          },
-        onClose:  function (dialog) {
-                    dialog.container.fadeOut('fast',function(){
-                      dialog.overlay.fadeOut('fast');
-                    });
-      	          }
-      });
-      $('div.modal_partners a.close').click(function(ev){
-        ev.preventDefault();
-        $.modal.close();
-      });
-      $.cookie('cdbetissanisidro', 'socios', { expires: 3, path: '/' });
-    }
+    // if (cookie==null && (today.getMonth()+1>5) && (today.getMonth()<8)) {
+    //   $("div.modal_partners").modal({
+    //     onOpen:   function (dialog) {
+    //                 dialog.data.show();
+    //                 dialog.container.show();
+    //   	            dialog.overlay.fadeIn('slow');
+    //   	          },
+    //     onClose:  function (dialog) {
+    //                 dialog.container.fadeOut('fast',function(){
+    //                   dialog.overlay.fadeOut('fast');
+    //                 });
+    //   	          }
+    //   });
+    //   $('div.modal_partners a.close').click(function(ev){
+    //     ev.preventDefault();
+    //     $.modal.close();
+    //   });
+    //   $.cookie('cdbetissanisidro', 'socios', { expires: 3, path: '/' });
+    // }
   
   
     // Click last news
