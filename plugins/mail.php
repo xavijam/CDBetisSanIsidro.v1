@@ -9,22 +9,12 @@
 
   $text = 'Gracias por elegir formar parte de la historia del club. Ya disponemos de tus datos, los cuales son confidenciales, y solo
       los utilizaremos para poder enviarte el nuevo carnet de socio del CD Betis San Isidro.
-      Ahora solo falta el ingreso de la cantidad elegida en el formulario, recuerda:
-        
-          '.$_POST['partner_type'].'
-        
-      Los datos para realizar la transferencia son:
-    
-          Numero de cuenta: 20381801246000321663
-          Concepto: '.$_POST['name'].' '.$_POST['surname'].'
-        
-    
-      En cuanto se confirme el pago nos pondremos en contacto contigo mediante el correo electrónico que nos has facilitado.
-    
+      Ahora solo necesitas ponerte en contacto con nosotros para finalizar el proceso. Puedes hacerlo
+      escribiendo un email a <a href="mailto:betis@cdbetissanisidro.com">betis@cdbetissanisidro.com</a>.
     
       Un saludo.
     
-          CD BETIS SAN ISIDRO';
+          CD Betis San Isidro';
           
   $email_data = '
     nombre:     '.$_POST['name'].'
