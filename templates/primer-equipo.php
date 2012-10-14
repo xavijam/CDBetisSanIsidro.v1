@@ -11,6 +11,27 @@
             <p>Primer Entrenador</p>
           </div>
         </li>
+        <li>
+          <div class="image">
+            <img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/default-avatar.gif" alt="Héctor Pérez Esteban" title="Héctor Pérez Esteban" />
+            <h3>Héctor Pérez</h3>
+            <p>Segundo entrenador</p>
+          </div>
+        </li>
+        <li>
+          <div class="image">
+            <img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/12-13/rober.jpg" alt="Luis Roberto Rodríguez Bosque" title="Luis Roberto Rodríguez Bosque" />
+            <h3>Luis Roberto Rodríguez</h3>
+            <p>Preparador</p>
+          </div>
+        </li>
+        <li>
+          <div class="image">
+            <img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/12-13/sonia.jpg" alt="Sonia Belén Yuste Lozano" title="Sonia Belén Yuste Lozano" />
+            <h3>Sonia Belén Yuste</h3>
+            <p>Fisioterapeuta</p>
+          </div>
+        </li>
 			</ul>
 	
 	
@@ -66,6 +87,15 @@
 						<h3>Dani</h3>
 						<p>Defensa</p>
 						<p>27 años</p>
+					</div>
+				</li>
+				<li class="last">
+					<div class="image">
+						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/default-avatar.gif" alt="Zandinati Fortes da Graçia" title="Zandinati Fortes da Graçia" />
+						<h3>Sandi</h3>
+						<p>Defensa</p>
+						<p>25 años</p>
+						<img class="nuevo" src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/fichaje.png" alt="Fichaje" title="Fichaje" />
 					</div>
 				</li>
 				<li>
@@ -173,10 +203,28 @@
 				</li>
 				<li class="last">
 					<div class="image">
-						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/12-13/zacarias.jpg" alt="Zandinati Fortes da Graça" title="Zandinati Fortes da Graça" />
+						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/12-13/zacarias.jpg" alt="Zakaria Komakan Diakité" title="Zakaria Komakan Diakité" />
 						<h3>Zacarías</h3>
 						<p>Centrocampista</p>
-						<p>25 años</p>
+						<p>19 años</p>
+						<img class="nuevo" src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/fichaje.png" alt="Fichaje" title="Fichaje" />
+					</div>
+				</li>
+				<li>
+					<div class="image">
+						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/default-avatar.gif" alt="Carlos Gallardo Quijada" title="Carlos Gallardo Quijada" />
+						<h3>Gallardo</h3>
+						<p>Centrocampista</p>
+						<p>20 años</p>
+						<img class="nuevo" src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/fichaje.png" alt="Fichaje" title="Fichaje" />
+					</div>
+				</li>
+				<li class="last">
+					<div class="image">
+						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/default-avatar.gif" alt="David Fernández Caballero" title="David Fernández Caballero" />
+						<h3>Caballero</h3>
+						<p>Centrocampista</p>
+						<p>20 años</p>
 						<img class="nuevo" src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/fichaje.png" alt="Fichaje" title="Fichaje" />
 					</div>
 				</li>

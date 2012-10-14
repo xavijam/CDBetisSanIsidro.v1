@@ -26,8 +26,8 @@
             rewind_posts();
             get_template_part( 'loop', 'archive' );
           ?>
-        </div><!-- #content -->
-      </div><!-- #container -->
+        </div>
+      </div>
     </div>
     <div class="bottom"></div>
   </div>
