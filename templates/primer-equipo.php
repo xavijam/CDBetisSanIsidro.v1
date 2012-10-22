@@ -13,16 +13,16 @@
         </li>
         <li>
           <div class="image">
-            <img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/default-avatar.gif" alt="Héctor Pérez Esteban" title="Héctor Pérez Esteban" />
+            <img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/12-13/hector.jpg" alt="Héctor Pérez Esteban" title="Héctor Pérez Esteban" />
             <h3>Héctor Pérez</h3>
-            <p>Segundo entrenador</p>
+            <p>Segundo Entrenador</p>
           </div>
         </li>
         <li>
           <div class="image">
             <img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/12-13/rober.jpg" alt="Luis Roberto Rodríguez Bosque" title="Luis Roberto Rodríguez Bosque" />
-            <h3>Luis Roberto Rodríguez</h3>
-            <p>Preparador</p>
+            <h3>Roberto Rodríguez</h3>
+            <p>Segundo Entrenador</p>
           </div>
         </li>
         <li>
@@ -72,7 +72,7 @@
 						<img class="nuevo" src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/fichaje.png" alt="Fichaje" title="Fichaje" />
 					</div>
 				</li>
-				<li class="last">
+				<li>
 					<div class="image">
 						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/12-13/cano.jpg" alt="Alejandro Cano Palomino" title="Alejandro Cano Palomino" />
 						<h3>Cano</h3>
@@ -106,6 +106,14 @@
 						<p>27 años</p>
 					</div>
 				</li>
+				<li>
+					<div class="image">
+						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/default-avatar.gif" alt="Alejandro" title="Alejandro Figueroa Arroyo" />
+						<h3>Alex</h3>
+						<p>Defensa</p>
+						<p>26 años</p>
+					</div>
+				</li>
 				<div style="display:inline-block; zoom:1; *display:inline; width:100%; height:1px"></div>
 				<li>
 					<div class="image">
@@ -133,7 +141,7 @@
 						<img class="nuevo" src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/fichaje.png" alt="Fichaje" title="Fichaje" />
 					</div>
 				</li>
-				<li class="last">
+				<li>
 					<div class="image">
 						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/12-13/butra.jpg" alt="David Butragueño" title="David Butragueño" />
 						<h3>Butra</h3>
@@ -142,7 +150,7 @@
 						<img class="nuevo" src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/fichaje.png" alt="Fichaje" title="Fichaje" />
 					</div>
 				</li>
-				<li>
+				<li class="last">
 					<div class="image">
 						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/12-13/cortes.jpg" alt="Carlos Cortés" title="Carlos Cortés" />
 						<h3>Cortés</h3>
@@ -176,14 +184,14 @@
 						<img class="nuevo" src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/fichaje.png" alt="Fichaje" title="Fichaje" />
 					</div>
 				</li>
-				<li class="last">
+				<!-- <li class="last">
 					<div class="image">
 						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/12-13/marques.jpg" alt="Marques" title="Marques" />
 						<h3>Marques</h3>
 						<p>Centrocampista</p>
 						<p>20 años</p>
 					</div>
-				</li>
+				</li> -->
 				<li>
 					<div class="image">
 						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/12-13/mingo.jpg" alt="Adrián Mingo" title="Adrián Mingo" />
@@ -192,7 +200,7 @@
 						<p>21 años</p>
 					</div>
 				</li>
-				<li>
+				<li class="last">
 					<div class="image">
 						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/12-13/sergio.jpg" alt="Sergio Moreno de la Torre" title="Sergio Moreno de la Torre" />
 						<h3>Sergio</h3>
@@ -201,7 +209,7 @@
 						<img class="nuevo" src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/fichaje.png" alt="Fichaje" title="Fichaje" />
 					</div>
 				</li>
-				<li class="last">
+				<li>
 					<div class="image">
 						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/12-13/zacarias.jpg" alt="Zakaria Komakan Diakité" title="Zakaria Komakan Diakité" />
 						<h3>Zacarías</h3>
@@ -221,7 +229,7 @@
 				</li>
 				<li class="last">
 					<div class="image">
-						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/default-avatar.gif" alt="David Fernández Caballero" title="David Fernández Caballero" />
+						<img src="<?php bloginfo( 'template_url' ); ?>/images/jugadores/primer_equipo/12-13/caballero.jpg" alt="David Fernández Caballero" title="David Fernández Caballero" />
 						<h3>Caballero</h3>
 						<p>Centrocampista</p>
 						<p>20 años</p>
