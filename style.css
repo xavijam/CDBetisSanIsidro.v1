@@ -106,7 +106,7 @@ div.ie6 p a {font-weight:bold; color:white}
 
 /* HOME */
 div#main {float:left; display:inline; margin:30px 0 0 24px; width:820px; height:380px; background:url('images/home/main_bkg.jpg') no-repeat 0 0;}
-div#main {height:429px; background:url('images/home/main_bkg_2.jpg') no-repeat 0 0;}
+/*div#main {height:429px; background:url('images/home/main_bkg_2.jpg') no-repeat 0 0;}*/
 div#main ul.sponsors {display:inline-block; width:765px; margin:14px 0 0 26px;}
 div#main ul.sponsors li {display:inline; width:auto;}
 div#main ul.sponsors li a.guzman {display:inline-block; vertical-align:top; margin:7px 15px 0 0; width:80px; height:28px; background:url('images/home/guzman.png') no-repeat 0 0;}
@@ -246,6 +246,7 @@ div.blocks div.block div.inner_block a.vizzuality {background:url('images/sponso
 div.blocks div.block div.inner_block a.cosmonauta {background:url('images/sponsors/elcosmonauta.jpg') no-repeat 0 0;}
 div.blocks div.block div.inner_block a.lapiedad {background:url('images/sponsors/lapiedad.jpg') no-repeat 0 0;}
 div.blocks div.block div.inner_block a.pescados_madrid {background:url('images/sponsors/pescados_madrid.jpg') no-repeat 0 0;}
+div.blocks div.block div.inner_block a.cartodb {background:url('images/sponsors/cartodb.jpg') no-repeat 0 0;}
 
 /*KINDS*/
 div.normal {float:left; display:inline; width:822px; margin:50px 0 0 23px;}

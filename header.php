@@ -48,12 +48,9 @@
             <a href="/" class="logo"></a>
             <p class="logo"></p>
           </div>
-          <div class="right">
-            <p>Patrocinado por:</p>
-            <div>
-              <a class="jose" href="/rincon-de-jose/"></a>
-            </div>
-          </div>
+          <!--<div class="right">
+            <p>Patrocinado por:</p><div><a class="jose" href="/rincon-de-jose/"></a></div>
+          </div>-->
         </div>
     
         <div id="menu" <?php if ( is_user_logged_in() ) {echo 'class="logged"';} ?>>
