@@ -28,12 +28,12 @@
 
   <?php get_footer(); ?>
   
-<!--   <div class="modal_partners">
+  <!-- <div class="modal_partners">
     <a class="close" href="#cerrar">X</a>
     <h3>Ahora ser socio es más fácil que nunca...</h3>
     <p>En 5 minutos podrás hacerlo, <a href="/socio/">rellena el formulario</a> con<br/>tus datos y en breve pertenecerás a un club de más de 80 años de historia...</p>
     <p><small>Recuerda, si quieres renovar tu subscripción,<br/> indica tu número de socio del año pasado</small></p>
-  </div> -->
+  </div>
 
     
   <div class="modal_partners">
@@ -41,7 +41,7 @@
     <h3>Lotería de navidad disponible</h3>
     <p>"Como cada año disponemos de lotería nacional para el próximo sorteo de navidad. Los números son el 13969 y el 1931. Cualquier consulta o interés contacta con nosotros por <a href="mailto:betis@cdbetissanisidro.com">correo</a>".</p>
     <p>Un saludo y feliz navidad<br/>CD Betis San Isidro</p>
-  </div>
+  </div> -->
 
 
 	<script src="<?php wp_js('/javascripts/plugins/jquery.cycle.js,/javascripts/plugins/jquery.simplemodal.1.4.1.min.js,/javascripts/plugins/jquery.cookie.js,/javascripts/plugins/jquery.scrollTo-1.4.2-min.js,/javascripts/plugins/leaflet.js,/javascripts/home.js') ?>" type="text/javascript" charset="utf-8"></script>

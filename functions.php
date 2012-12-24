@@ -721,7 +721,7 @@ endif;
           echo "<a href='".get_permalink($post->ID)."' class='image'><img src='".get_bloginfo('template_url')."/plugins/thumb.php?src=".get_post_meta($thePostID,'image', true)."&amp;h=60&amp;w=80&amp;zc=1&amp;q=100' alt='Entrevista de la semana' title='Entrevista de la semana' /></a>";
         }
         
-        echo '<p class="'.(($image!=null)?'middle':'').'">Gracias al periodista Alejandro Mateo podréis comentarla en las <a href="/noticias/">noticias</a> del equipo.</p>';
+        echo '<p class="'.(($image!=null)?'middle':'').'">Gracias a Javier Vivanco podréis comentarla en las <a href="/noticias/">noticias</a> del equipo.</p>';
         echo "<p><a href='".get_permalink($post->ID)."'>Visita</a> la entrevista de esta semana y comparte tu opinión.</p>";
       endwhile;
       wp_reset_query();

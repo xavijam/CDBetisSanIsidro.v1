@@ -1,29 +1,29 @@
 
   $(document).ready(function() {
   
-    // Show partners simplemodal or not...
-    var cookie = $.cookie('cdbetissanisidro');
-    var today = new Date();
+    // // Show partners simplemodal or not...
+    // var cookie = $.cookie('cdbetissanisidro');
+    // var today = new Date();
 
-    if (cookie==null) {
-      $("div.modal_partners").modal({
-        onOpen:   function (dialog) {
-                    dialog.data.show();
-                    dialog.container.show();
-      	            dialog.overlay.fadeIn('slow');
-      	          },
-        onClose:  function (dialog) {
-                    dialog.container.fadeOut('fast',function(){
-                      dialog.overlay.fadeOut('fast');
-                    });
-      	          }
-      });
-      $('div.modal_partners a.close').click(function(ev){
-        ev.preventDefault();
-        $.modal.close();
-      });
-      $.cookie('cdbetissanisidro', 'loteria', { expires: 3, path: '/' });
-    }
+    // if (cookie==null) {
+    //   $("div.modal_partners").modal({
+    //     onOpen:   function (dialog) {
+    //                 dialog.data.show();
+    //                 dialog.container.show();
+    //   	            dialog.overlay.fadeIn('slow');
+    //   	          },
+    //     onClose:  function (dialog) {
+    //                 dialog.container.fadeOut('fast',function(){
+    //                   dialog.overlay.fadeOut('fast');
+    //                 });
+    //   	          }
+    //   });
+    //   $('div.modal_partners a.close').click(function(ev){
+    //     ev.preventDefault();
+    //     $.modal.close();
+    //   });
+    //   $.cookie('cdbetissanisidro', 'loteria', { expires: 3, path: '/' });
+    // }
   
   
     // Click last news
