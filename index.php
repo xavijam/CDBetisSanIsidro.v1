@@ -10,11 +10,7 @@
 				<?php generateLastNewsList(); ?>
 			</ul>
 		</div>
-		<!-- <ul class="sponsors">
-  		<li><a class="piedad" href="http://www.conservaslapiedad.es" target="_blank"></a></li>
-  	</ul> -->
 	</div>
-	
 	
 	<div class="blocks">
 	  <?php firstBlock() ?>
@@ -25,23 +21,18 @@
     <?php sixthBlock() ?>
 	</div>
 	
-
-  <?php get_footer(); ?>
+<?php get_footer(); ?>
   
-  <!-- <div class="modal_partners">
-    <a class="close" href="#cerrar">X</a>
-    <h3>Ahora ser socio es más fácil que nunca...</h3>
-    <p>En 5 minutos podrás hacerlo, <a href="/socio/">rellena el formulario</a> con<br/>tus datos y en breve pertenecerás a un club de más de 80 años de historia...</p>
-    <p><small>Recuerda, si quieres renovar tu subscripción,<br/> indica tu número de socio del año pasado</small></p>
-  </div>
-
-    
   <div class="modal_partners">
     <a class="close" href="#cerrar">X</a>
-    <h3>Lotería de navidad disponible</h3>
-    <p>"Como cada año disponemos de lotería nacional para el próximo sorteo de navidad. Los números son el 13969 y el 1931. Cualquier consulta o interés contacta con nosotros por <a href="mailto:betis@cdbetissanisidro.com">correo</a>".</p>
-    <p>Un saludo y feliz navidad<br/>CD Betis San Isidro</p>
-  </div> -->
-
+    <h3>A la atención de los Sres. Socios</h3>
+    <p>El Secretario de la Junta Directiva del C.D. Betis San Isidro informa que en el cumplimiento de los estatutos de nuestro club se procede a la convocatoria de elecciones para la presidencia del club.</p>
+    <p>El periodo de esta próxima legislatura comprende desde el  día 1 de Junio de 2013 hasta el  día 1 de Junio de 2017.</p>
+    <p>Las candidaturas al cargo de presidente y su junta se publicarán en esta página web conforme vayan haciéndose públicas al correo de nuestro club.</p>
+    <p>En caso de haber dos o más candidaturas se procederá a la publicación de la fecha de las elecciones.</p>
+    <p>El plazo máximo para la presentación de las mismas será el  15 de Mayo de 2013.</p>
+    <p>La junta directiva actual aprovecha este momento para agradecer el apoyo prestado en estos cuatro años así cómo para comunicar que no se presentará a las mismas.</p>
+    <p>Saludos,<br/>Álvaro Iniesta</p>
+  </div>
 
 	<script src="<?php wp_js('/javascripts/plugins/jquery.cycle.js,/javascripts/plugins/jquery.simplemodal.1.4.1.min.js,/javascripts/plugins/jquery.cookie.js,/javascripts/plugins/jquery.scrollTo-1.4.2-min.js,/javascripts/plugins/leaflet.js,/javascripts/home.js') ?>" type="text/javascript" charset="utf-8"></script>
