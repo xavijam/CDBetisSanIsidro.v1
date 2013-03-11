@@ -32,7 +32,7 @@
     <p>En caso de haber dos o más candidaturas se procederá a la publicación de la fecha de las elecciones.</p>
     <p>El plazo máximo para la presentación de las mismas será el  15 de Mayo de 2013.</p>
     <p>La junta directiva actual aprovecha este momento para agradecer el apoyo prestado en estos cuatro años así cómo para comunicar que no se presentará a las mismas.</p>
-    <p>Saludos,<br/>Álvaro Iniesta</p>
+    <p>C.D. Betis San Isidro</p>
   </div>
 
 	<script src="<?php wp_js('/javascripts/plugins/jquery.cycle.js,/javascripts/plugins/jquery.simplemodal.1.4.1.min.js,/javascripts/plugins/jquery.cookie.js,/javascripts/plugins/jquery.scrollTo-1.4.2-min.js,/javascripts/plugins/leaflet.js,/javascripts/home.js') ?>" type="text/javascript" charset="utf-8"></script>
