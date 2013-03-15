@@ -2,10 +2,10 @@
   $(document).ready(function() {
   
     // Show simplemodal or not...
-    var cookie = $.cookie('cdbetissanisidro');
-    var today = new Date();
+    // var cookie = $.cookie('cdbetissanisidro');
+    // var today = new Date();
 
-    if (cookie==null) {
+    // if (cookie==null) {
       $("div.modal_partners").modal({
         onOpen:   function (dialog) {
                     dialog.data.show();
@@ -22,8 +22,8 @@
         ev.preventDefault();
         $.modal.close();
       });
-      $.cookie('cdbetissanisidro', 'elecciones', { expires: 3, path: '/' });
-    }
+      // $.cookie('cdbetissanisidro', 'elecciones', { expires: 3, path: '/' });
+    // }
   
   
     // Click last news
