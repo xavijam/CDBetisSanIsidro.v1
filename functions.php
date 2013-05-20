@@ -683,9 +683,9 @@ endif;
               <h2><a href="/publicidad">¿Quieres ser patrocinador?</a></h2>
               <div class="outer_block">
                 <div class="inner_block">
+                  <a href="http://www.futuroscracks.com" class="futuros_cracks" target="_blank">Futuros Cracks</a>
                   <a href="http://www.conservaslapiedad.es" class="lapiedad" target="_blank">Conservas la Piedad</a>
                   <a href="http://www.cartodb.com" class="cartodb" target="_blank">CartoDB</a>
-                  <a href="http://www.vizzuality.com" class="vizzuality" target="_blank">Vizzuality</a>
                 </div>
               </div>
             </div>';

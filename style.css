@@ -243,6 +243,7 @@ div.blocks div.block div.outer_block {position:absolute; top:38px; left:11px; di
 div.blocks div.block div.inner_block {float:left; width:2000px; height:218px;}
 div.blocks div.block div.inner_block a {float:left; width:268px; height:218px; text-indent:-9999px; font-size:0;}
 div.blocks div.block div.inner_block a.vizzuality {background:url('images/sponsors/vizzuality.jpg') no-repeat 0 0;}
+div.blocks div.block div.inner_block a.futuros_cracks {background:url('images/sponsors/futuroscracks.jpg') no-repeat 0 0;}
 div.blocks div.block div.inner_block a.cosmonauta {background:url('images/sponsors/elcosmonauta.jpg') no-repeat 0 0;}
 div.blocks div.block div.inner_block a.lapiedad {background:url('images/sponsors/lapiedad.jpg') no-repeat 0 0;}
 div.blocks div.block div.inner_block a.pescados_madrid {background:url('images/sponsors/pescados_madrid.jpg') no-repeat 0 0;}

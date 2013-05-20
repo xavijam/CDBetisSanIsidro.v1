@@ -6,22 +6,22 @@
     // var today = new Date();
 
     // if (cookie==null) {
-      $("div.modal_partners").modal({
-        onOpen:   function (dialog) {
-                    dialog.data.show();
-                    dialog.container.show();
-      	            dialog.overlay.fadeIn('slow');
-      	          },
-        onClose:  function (dialog) {
-                    dialog.container.fadeOut('fast',function(){
-                      dialog.overlay.fadeOut('fast');
-                    });
-      	          }
-      });
-      $('div.modal_partners a.close').click(function(ev){
-        ev.preventDefault();
-        $.modal.close();
-      });
+      // $("div.modal_partners").modal({
+      //   onOpen:   function (dialog) {
+      //               dialog.data.show();
+      //               dialog.container.show();
+      // 	            dialog.overlay.fadeIn('slow');
+      // 	          },
+      //   onClose:  function (dialog) {
+      //               dialog.container.fadeOut('fast',function(){
+      //                 dialog.overlay.fadeOut('fast');
+      //               });
+      // 	          }
+      // });
+      // $('div.modal_partners a.close').click(function(ev){
+      //   ev.preventDefault();
+      //   $.modal.close();
+      // });
       // $.cookie('cdbetissanisidro', 'elecciones', { expires: 3, path: '/' });
     // }
   
@@ -33,7 +33,7 @@
   
 
     // Setup sponsors cycle elements
-  	$('div.sponsors div.outer_block div.inner_block').cycle({timeout:10000, random:true});
+  	$('div.sponsors div.outer_block div.inner_block').cycle({timeout:10000, random:false});
 
   	// Order activity list
   	orderActivityList();
